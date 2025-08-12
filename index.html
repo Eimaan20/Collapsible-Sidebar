@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapsible Sidebar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <h2>Logo</h2>
+            <button class="close-btn" onclick="toggleSidebar()">×</button>
+        </div>
+        <a href="#"><i>🏠</i> Home</a>
+        <a href="#"><i>📄</i> About</a>
+        <a href="#"><i>📞</i> Contact</a>
+        <a href="#"><i>⚙️</i> Settings</a>
+        <a href="#"><i>❓</i> Help</a>
+    </div>
+
+    <!-- Main content -->
+    <div class="main-content">
+        <button class="open-btn" onclick="toggleSidebar()">☰ Menu</button>
+        <h1>Welcome to the Page</h1>
+        <p>
+          Hey There! 👋
+This page is part of my practice work for an internship.
+I’m using it to test ideas, try out designs, and sharpen my skills — so you might see a mix of experiments here. Thanks for visiting and following along with my learning journey!
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
